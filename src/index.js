@@ -19,4 +19,3 @@ export const runGameEngine = (gameRules, generateRound, userName) => {
 
   console.log(`Congratulations, ${userName}!`)
 }
-
