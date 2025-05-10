@@ -2,7 +2,8 @@
   "name": "@hexlet/code",
   "version": "1.0.1",
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "./bin/brain-even.js"
   },
   "description": "[![Actions Status](https://github.com/DSolokhin/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/DSolokhin/frontend-project-44/actions)",
   "homepage": "https://github.com/DSolokhin/frontend-project-44#readme",
