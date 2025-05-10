@@ -9,7 +9,7 @@ const generateRound = () => {
   const num2 = getRandomInt(1, 100);
   return {
     question: `${num1} ${num2}`,
-    answer: String(findGCD(num1, num2))
+    answer: String(findGCD(num1, num2)),
   };
 };
 
