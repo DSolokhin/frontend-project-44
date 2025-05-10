@@ -3,5 +3,5 @@ import { greetUser } from '../src/cli.js'
 import { runGameEngine } from '../src/index.js'
 import { gameRules, generateRound } from '../src/games/calc.js'
 
-const userName = greetUser();
+const userName = greetUser()
 runGameEngine(gameRules, generateRound, userName)

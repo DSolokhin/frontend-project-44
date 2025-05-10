@@ -1,7 +1,7 @@
 const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min
 
 const generateProgression = (start, step, length) => {
-  const progression = [];
+  const progression = []
   for (let i = 0; i < length; i += 1) {
     progression.push(start + step * i)
   }
@@ -23,6 +23,6 @@ const generateRound = () => {
   const question = progression.join(' ')
 
   return { question, answer }
-};
+}
 
 export { gameRules, generateRound }

@@ -4,12 +4,12 @@ const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) +
 
 const calculate = (a, b, operator) => {
   switch (operator) {
-    case '+': return a + b;
-    case '-': return a - b;
-    case '*': return a * b;
+    case '+': return a + b
+    case '-': return a - b
+    case '*': return a * b
     default: throw new Error(`Unknown operator: ${operator}`)
   }
-};
+}
 
 const generateRound = () => {
   const a = getRandomInt(1, 25)
