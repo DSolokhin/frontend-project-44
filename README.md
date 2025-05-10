@@ -5,3 +5,6 @@
 
 ### Demo asciinema even game
 https://asciinema.org/a/iAKcCv2gLDaZo1UsDTSYifhcS
+
+### Demo asciinema gcd game
+https://asciinema.org/a/qLf9o8GfootBZIp2ToHAvrGJh
