@@ -11,3 +11,6 @@ https://asciinema.org/a/qLf9o8GfootBZIp2ToHAvrGJh
 
 ### Demo asciinema gcd game progression
 https://asciinema.org/a/6IusXyoPQ2Qk7P5XhykhER7wY
+
+### Demo asciinema gcd game prime
+https://asciinema.org/a/c8a4wu3zBjeysf7hS81TKDMXA
