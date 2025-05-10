@@ -1,13 +1,9 @@
-// eslint.config.js
 import pluginJs from '@eslint/js'
 import pluginImport from 'eslint-plugin-import'
 import pluginStylistic from '@stylistic/eslint-plugin'
 
 export default [
-  // Базовые правила от ESLint
   pluginJs.configs.recommended,
-
-  // Конфигурация импортов
   {
     plugins: {
       import: pluginImport,
@@ -18,7 +14,6 @@ export default [
     },
   },
 
-  // Стилистические правила
   {
     plugins: {
       '@stylistic': pluginStylistic,
@@ -32,7 +27,6 @@ export default [
     },
   },
 
-  // Общие настройки
   {
     languageOptions: {
       ecmaVersion: 2021,
