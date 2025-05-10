@@ -1,6 +1,7 @@
 #!/usr/bin/env node
-import greetUser from '../src/cli.js';
-import runEvenGame from '../src/even.js';
+import { greetUser } from '../src/cli.js';
+import { runGameEngine } from '../src/index.js';
+import { gameRules, generateRound } from '../src/games/even.js';
 
 const userName = greetUser();
-runEvenGame(userName);
+runGameEngine(gameRules, generateRound, userName);
