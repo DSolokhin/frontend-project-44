@@ -15,10 +15,10 @@ const generateRound = () => {
   const a = getRandomInt(1, 25);
   const b = getRandomInt(1, 25);
   const operator = ['+', '-', '*'][getRandomInt(0, 2)];
-  
+
   return {
     question: `${a} ${operator} ${b}`,
-    answer: String(calculate(a, b, operator))
+    answer: String(calculate(a, b, operator)),
   };
 };
 

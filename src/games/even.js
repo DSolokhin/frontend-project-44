@@ -6,7 +6,7 @@ const generateRound = () => {
   const number = Math.floor(Math.random() * 100);
   return {
     question: number,
-    answer: isEven(number) ? 'yes' : 'no'
+    answer: isEven(number) ? 'yes' : 'no',
   };
 };
 

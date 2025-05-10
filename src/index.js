@@ -6,7 +6,7 @@ export const runGameEngine = (gameRules, generateRound) => {
   console.log(gameRules);
 
   const roundsCount = 3;
-  
+
   for (let i = 0; i < roundsCount; i += 1) {
     const { question, answer } = generateRound();
     const userAnswer = readlineSync.question(`Question: ${question}\nYour answer: `);
