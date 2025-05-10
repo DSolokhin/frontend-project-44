@@ -8,3 +8,6 @@ https://asciinema.org/a/iAKcCv2gLDaZo1UsDTSYifhcS
 
 ### Demo asciinema gcd game
 https://asciinema.org/a/qLf9o8GfootBZIp2ToHAvrGJh
+
+### Demo asciinema gcd game progression
+https://asciinema.org/a/6IusXyoPQ2Qk7P5XhykhER7wY
